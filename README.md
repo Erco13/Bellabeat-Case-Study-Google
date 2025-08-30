@@ -41,7 +41,7 @@ Identify simple, actionable usage patterns that Bellabeat could use to encourage
 - In-app nudges for low-activity weekdays.
 - Weekly step goal reminders + streak badges.
 - Bedtime reminders
-- Sleep suggesting when weekly average <7 h
+- Sleep suggestions when weekly average <7 h
 - 2 weeks trial for new joiners to build a habit using the app
 
   ## Repo Structure
