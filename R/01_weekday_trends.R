@@ -42,6 +42,7 @@ dir.create("reports/summary", recursive = TRUE, showWarnings = FALSE)
 cat(
   "- Steps peak on **", as.character(best_steps), "** and are lowest on **", as.character(worst_steps), "**.\n",
   "- The most active day (by minutes) is **", as.character(best_active), "**.\n",
-  file = "reports/summary/WEEKDAY_NOTES.md", sep = ""
+  file = "reports/summary/weekday_notes.md", sep = ""
 )
+
 
