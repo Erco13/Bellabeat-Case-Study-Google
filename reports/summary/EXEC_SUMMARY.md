@@ -1,26 +1,44 @@
-# Bellabeat Case Study — Google Data Analytics Capstone ( Samedin Ercan Onur )
+# Bellabeat Case Study — Google Data Analytics Capstone  
+**Author:** Samedin Ercan Onur  
+**Contact:** ercan_samedin@yahoo.com  
 
-## Business question
-Analyze smart-device usage to: find key trends, map them to Bellabeat customers, and recommend marketing strategies to drive acquisition, engagement, and retention.
-## Data & method (short)
-- Cleaned Fitbit-style device logs in **Excel** (list files you used)  
-- Cross‑checked totals, removed duplicates, parsed dates  
-- Built initial visuals in Excel (list your charts)  
+---
 
-## Key findings (replace with your numbers and chart references)
-1. **Average Dailiy Activity** — ~6,547 (median ~5,986); 27.8% of days hit 10k+ steps ( see `reports/figures/average_dailiy_activity.png`)
-2. **Average Dashboard** — Calories , Distance , Steps see `reports/figures/average_dashboard.png`.
-3. **Correlation on Activity and Calories** — Steps vs calories r ≈ 0.58 (moderate) (see `reports/figures/correlation_activity_vs_calories.png`)
-4. **Sedentary vs Active per minutes** — see `reports/figures/minutes_sedentary_vs_active.png`.
-5. **Sedentary vs Active per distance** — see `reports/figures/distance_sedentary_vs_active.png`.
-6. **Average Sleep Hours** - Avg sleep: 6.56 h; 53.3% of logged days have <7 h sleep (see ` reports/figures/average_sleep_hours.png`)
+## Business Question  
+What trends can we see in smart-device usage that could help Bellabeat improve customer engagement?
 
-## Recommendations
-- Daily streaks + smart alerts to 7.5k–10k steps ( “finish your 10k” prompts).
-- Sleep coaching when weekly average <7 h .
-- Calorie-aware activity goals (set targets to achive a calorie burn goal).
-- 14-day onboarding free-journey for new users to build a habit .
+---
 
---
-*Author: Samedin Ercan Onur
-*Contact: ercan_samedin@yahoo.com ;
+## Data & Tools  
+- Public Fitbit-style dataset (daily activity, sleep, calories, steps)  
+- Cleaned in **Excel** (removed duplicates, fixed dates, checked totals)  
+- Basic queries in **SQL** to group by weekday  
+- Simple visuals in **R (ggplot2)** and Excel charts  
+
+---
+
+## Steps I Took (Process)  
+1. Imported CSVs into Excel and BigQuery  
+2. Checked for duplicates and missing values  
+3. Created new columns (active minutes = very + fairly active)  
+4. Summarized steps, calories, and sleep by weekday  
+5. Exported summary tables to CSV for R  
+6. Made bar charts and scatterplots  
+
+---
+
+## Key Findings  
+- **Average daily steps:** ~6,500; only ~28% of days reach 10k steps  
+- **Calories vs activity:** more active minutes → more calories burned  
+- **Weekday pattern:** highest steps mid-week, lowest on weekends  
+- **Sleep:** average ~6.5 hours; about half the days are below 7 hours  
+
+(See `reports/figures/` for charts)  
+
+---
+
+## Recommendations (Simple & Actionable)  
+- Add **daily step reminders** when users are close to 7.5k–10k steps  
+- Suggest **bedtime reminders** if average sleep <7h  
+- Show **weekly step streaks** to motivate consistency  
+- Create a **2-week onboarding challenge** to help new users build healthy habits  
