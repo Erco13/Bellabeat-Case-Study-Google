@@ -3,7 +3,6 @@ library(dplyr)
 library(ggplot2)
 
 wt <- read_csv("reports/summary/weekday_trends.csv", show_col_types = FALSE)
-
 # Pre-checks
 wt <- wt %>%
   mutate(
@@ -45,3 +44,4 @@ cat(
   "- The most active day (by minutes) is **", as.character(best_active), "**.\n",
   file = "reports/summary/WEEKDAY_NOTES.md", sep = ""
 )
+
