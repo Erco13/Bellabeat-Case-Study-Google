@@ -1,0 +1,2 @@
+- Steps peak on **Wed** and are lowest on **Tue**.
+- The most active day (by minutes) is **Fri**.
