@@ -1,3 +1,8 @@
+# Bellabeat Case Study — Google Data Analytics Capstone
+
+Hi! I'm Samedin Ercan Onur, an aspiring junior data analyst. This repo contains **my** version of the Bellabeat case study. It walks through the full data analysis lifecycle — Ask, Prepare, Process, Analyze, Share, Act — and produces business-ready recommendations.
+
+
 ## Business Task (Ask)
 Identify simple, actionable usage patterns that Bellabeat could use to encourage healthier activity and app engagement.
 
@@ -22,9 +27,11 @@ Identify simple, actionable usage patterns that Bellabeat could use to encourage
 5. Visualize trends by weekday and activity level.
 
 ## Analysis (Key Findings)
-- Users are most active on **[weekday here]**; steps drop on **[weekday here]**.
+- Users are most active on **Wednesday (~7,511 steps on average)**; steps drop on **Tuesday (~4,915)**.
 - Higher **active minutes** are associated with higher **calories burned**.
 - Users with **consistent sleep** tend to show **more stable activity**.
+- Correlation between activity and calories is ≈ 0.58 (moderate) 
+- Average dailiy acyivity is ~6,547 ; 27.8% of days hit 10k+ steps 
 
 ## Share
 - Simple charts in `reports/figures/`  
