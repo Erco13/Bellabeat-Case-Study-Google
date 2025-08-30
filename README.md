@@ -35,7 +35,7 @@ Identify simple, actionable usage patterns that Bellabeat could use to encourage
 
 ## Share
 - Simple charts in `reports/figures/`  
-- Summary in `reports/summary/EXEC_SUMMARY.md`
+- Summary in `reports/summary/case_summary.md`
 
 ## Act (Recommendations)
 - In-app nudges for low-activity weekdays.
