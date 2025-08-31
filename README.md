@@ -6,7 +6,7 @@ Hi! I'm Samedin Ercan Onur, an aspiring junior data analyst. This repo contains 
 ## Business Task (Ask)
 Identify simple, actionable usage patterns that Bellabeat could use to encourage healthier activity and app engagement.
 
-**Stakeholders**: Urška Sršen (Cofounder & CCO), Sando Mur (Cofounder), and the Bellabeat Marketing Analytics team. fileciteturn0file0
+**Stakeholders**: Urška Sršen (Cofounder & CCO), Sando Mur (Cofounder), and the Bellabeat Marketing Analytics team. 
 
 ## Data Source (Prepare)
 - Public Fitbit fitness tracker data (sample).
