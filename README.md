@@ -47,5 +47,5 @@ Identify simple, actionable usage patterns that Bellabeat could use to encourage
   ## Repo Structure
 - `data/processed/` sample cleaned CSVs  
 - `SQL/` basic queries  
-- `R/` cleaning + EDA scripts  
+- `R/` scripts  
 - `reports/figures/` charts, `reports/summary/` executive summary
